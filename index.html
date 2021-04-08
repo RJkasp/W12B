@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- There should be a form  -->
+   <form id="createPost" method="post">
+       <input type="hidden" value="1" name="userId">
+       <input type="text" name="title" placeholder="title">
+       <textarea name="postBody" placeholder="post body"></textarea>
+      <!-- with a button that allows users to type in their post and click send -->
+       <input type="submit" value="add">
+   </form>
+  <!-- update a post with a PATCH request -->
+  <!-- (or on a button press if you're feeling fancy) -->
+   <button id="update">Update post 1</button>
+
+   <!-- delete a post with a DELETE request -->
+   <!-- (or on a button press if you're feeling fancy) -->
+   <button id="deleteBtn">Delete post 1</button>
+
+   <div></div>
+
+   <script src="/app.js"></script>
+</body>
+</html>
